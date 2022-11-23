@@ -99,8 +99,7 @@ int main() {
     time_start = clock();
 
     for (int i = 0; i < 1e5; i++)
-        // insertOnTail(&list, i);
-        ;
+        insertOnTail(&list, i);
 
     time_end = clock();
 
